@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.banner {
+    display: flex;
+    height: 100vh;
+}
+
+.banner-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.banner-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-right img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.banner-text {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.explore {
+    background-color: #7B77F2;
+    border: 1px solid #7B77F2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: white;
+    font-weight: 700;
+}
+
+.explore:hover {
+    color: #7B77F2;
+    border: 1px solid #7B77F2;
+    background-color: white;
+    transition: background-color 0.8s ease-out;
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #6AD991;
+}
+
+.banner-title {
+    font-size: 2rem;
+    color: transparent;
+    position: relative;
+}
+
+.banner-title::before {
+    content: 'Web Developer';
+    position: absolute;
+    color: #7B77F2;
+
+}
+
+@keyframes typing {
+    0% {
+        content: 'W|';
+    }
+
+    5% {
+        content: 'We|';
+    }
+
+    10% {
+        content: 'Web|';
+    }
+
+    15% {
+        content: 'Web |';
+    }
+
+    20% {
+        content: 'Web D|';
+    }
+
+    25% {
+        content: 'Web De|';
+    }
+
+    30% {
+        content: 'Web Dev|';
+    }
+
+    35% {
+        content: 'Web Deve|';
+    }
+
+    40% {
+        content: 'Web Devel|';
+    }
+
+    45% {
+        content: 'Web Develo|';
+    }
+
+    50% {
+        content: 'Web Develop|';
+    }
+
+    55% {
+        content: 'Web Develope|';
+    }
+
+    60% {
+        content: 'Web Developer|';
+    }
+
+    65%,
+    87% {
+        content: 'Web Developer|';
+    }
+
+    88% {
+        content: 'Web Develope|';
+    }
+
+    89% {
+        content: 'Web Develop|';
+    }
+
+    90% {
+        content: 'Web Develo|';
+    }
+
+    91% {
+        content: 'Web Devel|';
+    }
+
+    92% {
+        content: 'Web Deve|';
+    }
+
+    93% {
+        content: 'Web Dev|';
+    }
+
+    94% {
+        content: 'Web De|';
+    }
+
+    95% {
+        content: 'Web D|';
+    }
+
+    96% {
+        content: 'Web |';
+    }
+
+    97% {
+        content: 'Web|';
+    }
+
+    98% {
+        content: 'We|';
+    }
+
+    99% {
+        content: 'W|';
+    }
+
+    100% {
+        content: '|';
+    }
+
+}

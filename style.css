@@ -72,7 +72,7 @@ body {
     content: 'Web Developer';
     position: absolute;
     color: #7B77F2;
-
+    animation: typing 5s linear 1s infinite;
 }
 
 @keyframes typing {
@@ -129,60 +129,60 @@ body {
     }
 
     65%,
-    87% {
+    85% {
         content: 'Web Developer|';
     }
 
-    88% {
+    86% {
         content: 'Web Develope|';
     }
 
-    89% {
+    87% {
         content: 'Web Develop|';
     }
 
-    90% {
+    88% {
         content: 'Web Develo|';
     }
 
-    91% {
+    89% {
         content: 'Web Devel|';
     }
 
-    92% {
+    90% {
         content: 'Web Deve|';
     }
 
-    93% {
+    91% {
         content: 'Web Dev|';
     }
 
-    94% {
+    92% {
         content: 'Web De|';
     }
 
-    95% {
+    93% {
         content: 'Web D|';
     }
 
-    96% {
+    94% {
         content: 'Web |';
     }
 
-    97% {
+    95% {
         content: 'Web|';
     }
 
-    98% {
+    96% {
         content: 'We|';
     }
 
-    99% {
+    97% {
         content: 'W|';
     }
 
+    98%,
     100% {
         content: '|';
     }
-
 }

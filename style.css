@@ -255,7 +255,6 @@ body {
 }
 
 .gallery-title {
-    margin-bottom: 20px;
     font-size: 2rem;
     color: #6AD991;
     text-align: center;
@@ -265,7 +264,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    color: white;
+    color: tomato;
     top: 250px;
     left: 500px;
     transition: 0.5s ease-in-out;
@@ -273,4 +272,10 @@ body {
 
 .photo:hover .photo-content {
     left: 180px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
 }

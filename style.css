@@ -253,3 +253,24 @@ body {
 .photo:hover .border.right {
     top: 5px;
 }
+
+.gallery-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #6AD991;
+    text-align: center;
+}
+
+.photo-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    top: 250px;
+    left: 500px;
+    transition: 0.5s ease-in-out;
+}
+
+.photo:hover .photo-content {
+    left: 180px;
+}

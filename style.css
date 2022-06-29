@@ -186,3 +186,70 @@ body {
         content: '|';
     }
 }
+
+.photo {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.border {
+    background-color: #6AD991;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+.border.top,
+.border.bottom {
+    height: 5px;
+    width: 290px;
+}
+
+.border.left,
+.border.right {
+    height: 290px;
+    width: 5px;
+}
+
+.border.top {
+    top: 5px;
+    left: 100%;
+}
+
+.border.bottom {
+    bottom: 5px;
+    right: 100%;
+}
+
+.border.left {
+    left: 5px;
+    bottom: 100%;
+}
+
+.border.right {
+    right: 5px;
+    top: 100%;
+}
+
+.photo:hover .border.top {
+    left: 5px;
+}
+
+.photo:hover .border.bottom {
+    right: 5px;
+}
+
+.photo:hover .border.left {
+    bottom: 5px;
+}
+
+.photo:hover .border.right {
+    top: 5px;
+}
